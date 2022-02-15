@@ -103,13 +103,13 @@ nav a:focus {
   /* Requirement 5 code here*/
   display: grid;
   grid-template-columns: 1fr 5fr 1fr;
-  grid-row-gap: 30px;
+  row-gap: 30px;
 }
 
 /* Requirements 6-10 here: */
 .intro {
   /* The image used */
-  background: url("../images/header.jpg") #DDDDDD;
+  background: url("../images/header.jpg") #707070;
 
   /* Set a specific height */
   min-height: 400px;
